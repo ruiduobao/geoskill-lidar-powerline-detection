@@ -2,8 +2,8 @@
   "skill": "lidar-powerline-detection",
   "skill_version": "1.0.0",
   "command": "lidar-powerline-detection --bbox 116.0 39.0 117.0 40.0 --output-dir ./_test_cli_bboxonly --quiet",
-  "started_at": "2026-08-03T21:37:15.359555Z",
-  "finished_at": "2026-08-03T21:37:15.532397Z",
+  "started_at": "2026-11-02T15:24:07.297397Z",
+  "finished_at": "2026-11-02T15:24:07.880908Z",
   "exit_code": 0,
   "inputs": {
     "input": null,
@@ -20,7 +20,7 @@
   "datasets": [],
   "outputs": [
     {
-      "path": "./_test_cli_bboxonly\\powerlines.geojson",
+      "path": "./_test_cli_bboxonly/powerlines.geojson",
       "kind": "vector",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -37,7 +37,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_bboxonly\\towers.geojson",
+      "path": "./_test_cli_bboxonly/towers.geojson",
       "kind": "vector",
       "size_bytes": null,
       "crs_epsg": 4326,
@@ -54,7 +54,7 @@
       "row_count": null
     },
     {
-      "path": "./_test_cli_bboxonly\\line_tree_distance.json",
+      "path": "./_test_cli_bboxonly/line_tree_distance.json",
       "kind": "json",
       "size_bytes": null,
       "crs_epsg": null,
@@ -71,16 +71,16 @@
     "n_total_points": 4000,
     "n_above_ground": 1666,
     "n_line_points": 1173,
-    "elongation": 7218459.410577001,
+    "elongation": 7218459.410577006,
     "n_towers": 2,
-    "catenary_rmse": 2.8677632987143644,
-    "catenary_sag": 17.317164532840252,
+    "catenary_rmse": 1.1040258242062666,
+    "catenary_sag": 11.484912494197488,
     "min_line_tree_distance": 0.9311716750828295,
     "synthetic_true_sag": 8.0,
     "synthetic_n_towers": 2
   },
   "software": {
-    "python": "3.9.21",
+    "python": "3.12.3",
     "skill": "lidar-powerline-detection"
   },
   "error": null
